@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-from config import (
+from src.config import (
     START_DATE,
     PERIODS,
     FREQ,

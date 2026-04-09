@@ -73,3 +73,11 @@ DEPARTMENT_HEADCOUNT_BASE = {
     "G&A": 5,
     "Technology": 10,
 }
+
+# DuckDB file path
+DUCKDB_PATH = BASE_DIR / "enterprise_fpna.duckdb"
+
+# SQL directories
+SQL_SCHEMA_DIR = BASE_DIR / "sql" / "schema"
+SQL_VIEWS_DIR = BASE_DIR / "sql" / "views"
+SQL_QA_DIR = BASE_DIR / "sql" / "qa"
