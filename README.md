@@ -1,3 +1,6 @@
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://enterprise-fpna-decision-engine-t5n4euajzwyzfa7nrym8ls.streamlit.app/)
+
+
 # Enterprise FP&A Decision Engine
 
 An end-to-end FP&A analytics project that simulates a real-world corporate finance environment using Python, SQL, DuckDB, forecasting, scenario modeling, automated commentary, executive dashboards, and an interactive Streamlit application.
@@ -156,6 +159,8 @@ Interactive Streamlit Dashboard
 # Interactive Dashboard
 
 The project includes a fully interactive FP&A dashboard built with Streamlit.
+
+https://enterprise-fpna-decision-engine-t5n4euajzwyzfa7nrym8ls.streamlit.app/
 
 ### Dashboard Features
 
