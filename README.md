@@ -182,8 +182,14 @@ Executive Visuals
 ## Scenario Bubble Chart
 ![Scenario Bubble Chart](output/charts/scenario_bubble_chart.png)
 
-## Department Overspend Pareto
-![Department Overspend Pareto](output/charts/department_overspend_pareto.png)
+## EBITDA Heatmap by Entity and Region
+![EBITDA Heatmap by Entity and Region](output/charts/region_entity_ebitda_heatmap.png)
+
+## Actual + Rolling Forecast
+![Actual + Rolling Forecast](output/charts/region_entity_ebitda_heatmap.png)
+
+## Revenue Heatmap by Entity and Month
+![Revenue Heatmap by Entity and Month](output/charts/entity_month_revenue_heatmap.png)
 
 ---
 
