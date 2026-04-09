@@ -1,6 +1,6 @@
 # Enterprise FP&A Decision Engine
 
-An end-to-end FP&A analytics project that simulates a real-world corporate finance environment using Python, SQL, DuckDB, forecasting, scenario modeling, automated commentary, and executive dashboards.
+An end-to-end FP&A analytics project that simulates a real-world corporate finance environment using Python, SQL, DuckDB, forecasting, scenario modeling, automated commentary, executive dashboards, and an interactive Streamlit application.
 
 This project demonstrates how a modern FP&A function can automate reporting, forecasting, and decision support using scalable data workflows.
 
@@ -20,7 +20,7 @@ Finance teams often spend significant time manually preparing:
 
 This project converts that process into a fully automated pipeline.
 
-It generates synthetic multi-entity finance data, validates it, builds reporting tables, creates forecasts and scenarios, and produces executive-ready dashboards and visuals.
+It generates synthetic multi-entity finance data, validates it, builds reporting tables, creates forecasts and scenarios, and produces executive-ready dashboards and visuals — along with an interactive Streamlit dashboard for exploration.
 
 ---
 
@@ -54,6 +54,17 @@ It generates synthetic multi-entity finance data, validates it, builds reporting
 - Scenario visuals  
 - Department overspend analysis  
 
+## Interactive Dashboard (Streamlit)
+- Entity and region filters  
+- KPI cards  
+- Revenue vs budget trends  
+- EBITDA vs budget trends  
+- Scenario selector  
+- Forecast comparison charts  
+- Department cost analysis  
+- Commentary explorer  
+- Data explorer  
+
 ---
 
 # Business Questions Answered
@@ -66,6 +77,7 @@ This project helps answer practical FP&A questions:
 - How does forecast change under different scenarios?
 - What drives margin expansion?
 - How can reporting be automated?
+- How does profitability change under different planning assumptions?
 
 ---
 
@@ -75,6 +87,7 @@ This project helps answer practical FP&A questions:
 - Pandas  
 - NumPy  
 - Matplotlib  
+- Streamlit  
 - DuckDB  
 - SQL  
 - Git / GitHub  
@@ -96,8 +109,6 @@ enterprise-fpna-decision-engine/
 │   ├── reports/
 │   └── logs/
 │
-├── screenshots/
-│
 ├── sql/
 │
 ├── src/
@@ -110,6 +121,7 @@ enterprise-fpna-decision-engine/
 │   ├── commentary.py
 │   ├── charts.py
 │
+├── streamlit_app.py
 ├── main.py
 ├── requirements.txt
 └── README.md
@@ -135,7 +147,48 @@ Scenario Modeling
 KPI Tables
      ↓
 Executive Visuals
+     ↓
+Interactive Streamlit Dashboard
 ```
+
+---
+
+# Interactive Dashboard
+
+The project includes a fully interactive FP&A dashboard built with Streamlit.
+
+### Dashboard Features
+
+- Entity filtering  
+- Region filtering  
+- Scenario selection  
+- KPI summary cards  
+- Revenue vs Budget trend  
+- EBITDA vs Budget trend  
+- Entity performance comparison  
+- Region margin analysis  
+- Forecast vs Scenario comparison  
+- Department Opex variance  
+- Commentary viewer  
+- Data explorer  
+
+---
+
+# Running the Interactive Dashboard
+
+First generate the data:
+
+```
+python main.py
+```
+
+Then launch the dashboard:
+
+```
+streamlit run streamlit_app.py
+```
+
+The dashboard will open in your browser.
 
 ---
 
@@ -162,6 +215,13 @@ Executive Visuals
 - EBITDA bridge  
 - Scenario bubble chart  
 - Department overspend Pareto  
+
+## Interactive App
+- Fully interactive FP&A dashboard  
+- Real-time filtering  
+- Scenario selection  
+- Live KPI updates  
+- Executive-ready visuals  
 
 ---
 
@@ -195,16 +255,22 @@ Executive Visuals
 
 # How to Run
 
-## Install dependencies
+Install dependencies:
 
 ```
 pip install -r requirements.txt
 ```
 
-## Run full pipeline
+Run full pipeline:
 
 ```
 python main.py
+```
+
+Launch interactive dashboard:
+
+```
+streamlit run streamlit_app.py
 ```
 
 Outputs will be generated in:
@@ -226,6 +292,7 @@ After running the pipeline, the project produces:
 - Executive dashboards  
 - Management charts  
 - Commentary files  
+- Interactive Streamlit dashboard  
 
 ---
 
