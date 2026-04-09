@@ -186,7 +186,7 @@ Executive Visuals
 ![EBITDA Heatmap by Entity and Region](output/charts/region_entity_ebitda_heatmap.png)
 
 ## Actual + Rolling Forecast
-![Actual + Rolling Forecast](output/charts/region_entity_ebitda_heatmap.png)
+![Actual + Rolling Forecast](output/charts/actuals_plus_forecast.png)
 
 ## Revenue Heatmap by Entity and Month
 ![Revenue Heatmap by Entity and Month](output/charts/entity_month_revenue_heatmap.png)
