@@ -168,22 +168,22 @@ Executive Visuals
 # Example Visuals
 
 ## Executive Finance Dashboard
-![Executive Finance Dashboard](output\charts/executive_finance_dashboard.png)
+![Executive Finance Dashboard](output/charts/executive_finance_dashboard.png)
 
 ## Executive KPI Scorecard
-![Executive KPI Scorecard](output\charts/executive_kpi_scorecard.png)
+![Executive KPI Scorecard](output/charts/executive_kpi_scorecard.png)
 
 ## Revenue vs Budget
-![Revenue vs Budget](output\charts/revenue_vs_budget.png)
+![Revenue vs Budget](output/charts/revenue_vs_budget.png)
 
 ## Revenue Bridge
-![Revenue Bridge](output\charts/latest_month_revenue_bridge.png)
+![Revenue Bridge](output/charts/latest_month_revenue_bridge.png)
 
 ## Scenario Bubble Chart
-![Scenario Bubble Chart](output\charts/scenario_bubble_chart.png)
+![Scenario Bubble Chart](output/charts/scenario_bubble_chart.png)
 
 ## Department Overspend Pareto
-![Department Overspend Pareto](output\charts/department_overspend_pareto.png)
+![Department Overspend Pareto](output/charts/department_overspend_pareto.png)
 
 ---
 
